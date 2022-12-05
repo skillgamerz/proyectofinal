@@ -1,5 +1,65 @@
+$title-font: normal 40px/1.5 'Open Sans', sans-serif;
+$color: orange; 
+$title-font1: normal 25px/1.5 'Open Sans', sans-serif;
+$color1: black;
+
+     
+
 * {
     padding: 0;
     margin: 0;
     border: 0;
 }
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.textoindex {
+   
+   font: $title-font;
+   color: $color;
+   
+}
+.textonosotros {
+    font: $title-font;
+    color: $color;
+}
+.textoservicios {
+    font: $title-font;
+    color: $color;
+}
+
+.textocontacto {
+    font: $title-font;
+    color: $color;
+}
+
+.textocontacto1 {
+    font: $title-font1;
+    color: $color1;
+}
+
+.navbar-brand {
+    color: $color;
+}
+
+//boton 3d contacto///
+@mixin threed-button($base-color){
+    $shadow: "";
+  
+    @for $i from 1 through 4{
+      $shadow: $shadow + "#{$i}px #{$i}px 0px 2px " + darken($base-color,$i*5) + ",";
+    } 
+  
+    $shadow : str-slice($shadow,0,str-length($shadow)-1);
+    appearance: none;
+    border:none;
+    background: $base-color;
+    box-shadow: unquote($shadow);
+  }
+  .buttonone {
+    @include threed-button(#ffffff);
+    font-size:18px;
+    color:white;
+  }
