@@ -1,38 +1,29 @@
-* {
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding: 0;
   margin: 0;
   border: 0; }
-
-body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-
-.textoindex {
-  font: normal 40px/1.5 "Open Sans", sans-serif;
-  color: orange; }
-
-.textonosotros {
-  font: normal 40px/1.5 "Open Sans", sans-serif;
-  color: orange; }
-
-.textoservicios {
-  font: normal 40px/1.5 "Open Sans", sans-serif;
-  color: orange; }
-
-.textocontacto {
-  font: normal 40px/1.5 "Open Sans", sans-serif;
-  color: orange; }
-
-.textocontacto1 {
-  font: normal 25px/1.5 "Open Sans", sans-serif;
-  color: black; }
-
-.navbar-brand {
-  color: orange; }
-
-.buttonone {
-  appearance: none;
-  border: none;
-  background: #ffffff;
-  box-shadow: 1px 1px 0px 2px #f2f2f2,2px 2px 0px 2px #e6e6e6,3px 3px 0px 2px #d9d9d9,4px 4px 0px 2px #cccccc;
-  font-size: 18px;
-  color: white; }
+  body main .textoindex {
+    font: normal 40px/1.5 "Open Sans", sans-serif;
+    color: orange; }
+  body main .textonosotros {
+    font: normal 40px/1.5 "Open Sans", sans-serif;
+    color: orange; }
+  body main .textoservicios {
+    font: normal 40px/1.5 "Open Sans", sans-serif;
+    color: orange; }
+  body main .textocontacto {
+    font: normal 40px/1.5 "Open Sans", sans-serif;
+    color: orange; }
+  body main .textocontacto1 {
+    font: normal 25px/1.5 "Open Sans", sans-serif;
+    color: black; }
+  body main .navbar-brand {
+    color: orange; }
+  body main .buttonone {
+    appearance: none;
+    border: none;
+    background: #ffffff;
+    box-shadow: 1px 1px 0px 2px #f2f2f2,2px 2px 0px 2px #e6e6e6,3px 3px 0px 2px #d9d9d9,4px 4px 0px 2px #cccccc;
+    font-size: 18px;
+    color: white; }

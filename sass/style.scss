@@ -1,19 +1,35 @@
+///imports///
+
 @import "header";
 @import "var";
+//boton 3d contacto///
+
+@mixin threed-button($base-color){
+    $shadow: "";
+  
+    @for $i from 1 through 4{
+      $shadow: $shadow + "#{$i}px #{$i}px 0px 2px " + darken($base-color,$i*5) + ",";
+    } 
+  
+    $shadow : str-slice($shadow,0,str-length($shadow)-1);
+    appearance: none;
+    border:none;
+    background: $base-color;
+    box-shadow: unquote($shadow);
+  }
 
 
      
 
-* {
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.textoindex {
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+    main {
+    .textoindex {
    
    font: $title-font;
    color: $color;
@@ -41,23 +57,11 @@ body {
 .navbar-brand {
     color: $color;
 }
-
-//boton 3d contacto///
-@mixin threed-button($base-color){
-    $shadow: "";
-  
-    @for $i from 1 through 4{
-      $shadow: $shadow + "#{$i}px #{$i}px 0px 2px " + darken($base-color,$i*5) + ",";
-    } 
-  
-    $shadow : str-slice($shadow,0,str-length($shadow)-1);
-    appearance: none;
-    border:none;
-    background: $base-color;
-    box-shadow: unquote($shadow);
-  }
-  .buttonone {
+.buttonone {
     @include threed-button(#ffffff);
     font-size:18px;
     color:white;
   }
+}
+}
+
