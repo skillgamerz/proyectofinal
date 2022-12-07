@@ -29,13 +29,13 @@
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-    nav 
+
+  
     .navbar-brand {
         color: $color;
     }
 
-    main {
+  
     .textoindex {
    
     font: $title-font;
@@ -61,12 +61,11 @@ body {
     color: $color1;
 }
 
-}
 .buttononee {
     @include threed-button(#ffffff);
     font-size:18px;
-    color:white;
-  }
+    color:white;}
+
 }
 
 

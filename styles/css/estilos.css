@@ -8,22 +8,21 @@
 
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-  body nav
-.navbar-brand {
+  body .navbar-brand {
     color: orange; }
-  body main .textoindex {
+  body .textoindex {
     font: normal 40px/1.5 "Open Sans", sans-serif;
     color: orange; }
-  body main .textonosotros {
+  body .textonosotros {
     font: normal 40px/1.5 "Open Sans", sans-serif;
     color: orange; }
-  body main .textoservicios {
+  body .textoservicios {
     font: normal 40px/1.5 "Open Sans", sans-serif;
     color: orange; }
-  body main .textocontacto {
+  body .textocontacto {
     font: normal 40px/1.5 "Open Sans", sans-serif;
     color: orange; }
-  body main .textocontacto1 {
+  body .textocontacto1 {
     font: normal 25px/1.5 "Open Sans", sans-serif;
     color: black; }
   body .buttononee {
