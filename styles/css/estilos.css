@@ -5,23 +5,29 @@
 
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
-  body .textoindex {
-    font: normal 40px/1.5 "Open Sans", sans-serif;
-    color: orange; }
-  body .textonosotros {
-    font: normal 40px/1.5 "Open Sans", sans-serif;
-    color: orange; }
-  body .textoservicios {
-    font: normal 40px/1.5 "Open Sans", sans-serif;
-    color: orange; }
-  body .textocontacto {
-    font: normal 40px/1.5 "Open Sans", sans-serif;
-    color: orange; }
-  body .textocontacto1 {
-    font: normal 25px/1.5 "Open Sans", sans-serif;
-    color: black; }
-  body .navbar-brand {
-    color: orange; }
+
+.textoindex {
+  font: normal 40px/1.5 "Open Sans", sans-serif;
+  color: orange; }
+
+.textonosotros {
+  font: normal 40px/1.5 "Open Sans", sans-serif;
+  color: orange; }
+
+.textoservicios {
+  font: normal 40px/1.5 "Open Sans", sans-serif;
+  color: orange; }
+
+.textocontacto {
+  font: normal 40px/1.5 "Open Sans", sans-serif;
+  color: orange; }
+
+.textocontacto1 {
+  font: normal 25px/1.5 "Open Sans", sans-serif;
+  color: black; }
+
+.navbar-brand {
+  color: orange; }
 
 .buttonone {
   appearance: none;

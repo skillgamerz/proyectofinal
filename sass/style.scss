@@ -1,9 +1,5 @@
-$title-font: normal 40px/1.5 'Open Sans', sans-serif;
-$color: orange; 
-$title-font1: normal 25px/1.5 'Open Sans', sans-serif;
-$color1: black;
 @import "header";
-@import "footer";
+@import "var";
 
 
      
@@ -16,7 +12,7 @@ $color1: black;
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+}
 .textoindex {
    
    font: $title-font;
@@ -45,7 +41,7 @@ body {
 .navbar-brand {
     color: $color;
 }
-}
+
 //boton 3d contacto///
 @mixin threed-button($base-color){
     $shadow: "";
