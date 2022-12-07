@@ -1,8 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
   body main .textoindex {
@@ -22,10 +17,11 @@ body {
     color: black; }
   body main .navbar-brand {
     color: orange; }
-  body main .buttonone {
-    appearance: none;
-    border: none;
-    background: #ffffff;
-    box-shadow: 1px 1px 0px 2px #f2f2f2,2px 2px 0px 2px #e6e6e6,3px 3px 0px 2px #d9d9d9,4px 4px 0px 2px #cccccc;
-    font-size: 18px;
-    color: white; }
+
+.buttononee {
+  appearance: none;
+  border: none;
+  background: #ffffff;
+  box-shadow: 1px 1px 0px 2px #f2f2f2,2px 2px 0px 2px #e6e6e6,3px 3px 0px 2px #d9d9d9,4px 4px 0px 2px #cccccc;
+  font-size: 18px;
+  color: white; }
