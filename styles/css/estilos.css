@@ -1,8 +1,10 @@
-body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+* {
   padding: 0;
   margin: 0;
-  border: 0; }
+  border: 0;
+}
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
   body main .textoindex {
     font: normal 40px/1.5 "Open Sans", sans-serif;
     color: orange; }
